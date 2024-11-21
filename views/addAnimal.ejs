@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Animal</title>
+</head>
+<body>
+  <h1>Add New Animal</h1>
+  <form action="/animals" method="POST">
+    <label for="name">Nama:</label>
+    <input type="text" name="name" required><br><br>
+    <label for="species">Spesies:</label>
+    <input type="text" name="species" required><br><br>
+    <label for="age">Umur:</label>
+    <input type="number" name="age" required><br><br>
+    <label for="condition">Kondisi:</label>
+    <textarea name="condition" required></textarea><br><br>
+    <button type="submit">Add Animal</button>
+  </form>
+</body>
+</html>
